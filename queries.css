@@ -1,0 +1,302 @@
+
+/*----Big Tablets to 1200px----*/
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+
+    .footer-bottom p{
+        padding: 0;
+    }
+
+}
+
+
+/*----Small Tablet ot Big Tablets----*/
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+
+    .main-nav {
+        margin-top: 4%;
+    }
+    
+
+    .main-nav li {
+        margin-left: 30px;
+        font-size: 120%;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+    font-size: 80%;
+}
+
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .hero-text-box h4 {
+        font-size: 90%;
+    }
+
+    .hero-text-box h1 {
+        font-size: 200%;
+    }
+
+    .hero-text-box h3 {
+        font-size: 100%;
+    }
+    
+    .section-Projects h2 {
+        font-size: 30px;
+    }
+    
+    .section-Projects h3 {
+        margin-top: 20px;
+    }
+
+
+    .game h4 {
+        font-size: 90%;
+        margin-bottom: 10%;
+    }
+    
+    .game-img {
+        height: 160px;
+        width: auto;
+        margin-bottom: 0%;  
+        
+    }
+    
+
+    .footer-content img {
+        height: 160px;
+    }
+
+    .footer-content p {
+        margin-top: 2%;
+        font-size: 160%;
+    }
+
+    .social img {
+        height: 30px;
+        width: auto;
+    }
+
+    .social li {
+        display: inline-block;
+        margin: 20px 40px;
+        padding: 0 0 0 0;
+    }
+
+    .footer-bottom {
+        height: 26px;
+    
+    }
+    
+
+}
+
+
+/*----Small Phones or Small Tablets----*/
+@media only screen and (max-width: 767px) {
+    
+    body {
+        font-size: 16px;
+    }
+
+    .main-nav {
+        padding-right: 20px;
+    }
+
+    .main-nav li {
+        margin-left: 28px;
+        font-size: 140%;
+        padding-right: 4px;
+    }
+
+    .hero-text-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .btn:link,
+    .btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.4s, border 0.4s, color 0.4s;
+    background-color: #494949;
+}
+
+    .btn-full:link,
+    .btn-full:visited {
+    background-color: #4949498e;
+    border: 1px solid #4e4e4e;
+    color: #fff;
+    margin-right: 0;
+    margin-bottom: 2%;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #4e4e4e;
+    color: #ffffff;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #032769;
+    }
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #032769;
+    }
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #032769;
+    color: #fff;
+    }
+
+    .MenuBar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 140%;
+        margin: 0;
+        padding: 0;
+    }
+
+    h2:after {
+        margin-top : 2%;
+        width: 16%;
+    }
+
+    section {
+        padding: 20px 0;
+    }
+
+    .box p {
+        font-size: 100%;
+    } 
+
+    .footer-content img {
+        margin-top: 2%;
+        height: 140px;
+    }
+
+    .footer-content p {
+        margin-top: 2%;
+        font-size: 120%;
+    }
+
+    .social img {
+        margin-top: 10px;
+        height: 20px;
+        width: auto;
+    }
+
+    .social li {
+        display: inline-block;
+        margin: 10px 20px;
+        padding: 0 0 0 0;
+    }
+
+    footer {
+        padding-top: 3%;
+    }
+
+
+
+    .footer-bottom {
+        height: 20px;
+    
+    }
+
+    .footer-bottom p {
+        font-size: 50%;
+    }
+
+    .game-img {
+        height: 120px;
+        width: auto;
+    }
+
+}
+
+/*----Small Phones----*/
+@media only screen and (max-width: 510px) {
+    section {
+        padding: 20px 0;
+    }
+
+    
+header {
+    height: 70vh;
+    
+}
+
+    .main-nav {
+        padding-right: 16px;
+    }
+
+    .main-nav li {
+        margin-right: 0px;
+        font-size: 120%;
+    }
+
+    .hero-text-box {
+        top: 24%;
+    }
+
+    .long-copy {
+        font-size: 80%;
+    }
+
+    .box h4 {
+        font-size: 110%;
+    }
+
+    .box p {
+        font-size: 86%;
+    }
+
+    .section-Projects {
+        padding-bottom: 0;
+    }
+
+    .section-Projects h2 {
+        font-size: 140%;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .long-copy {
+        font-size: 96%;
+    }
+
+    .box p {
+        font-size: 14px;
+    }
+}
