@@ -247,12 +247,12 @@ h2:after {
 .main-nav li {
     font-size: 120%;
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 0px;
 }
 
 .main-nav li a:link,
 .main-nav li a:visited {
-    padding: 4px 0;
+    padding: 4px 1px 0 0;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
