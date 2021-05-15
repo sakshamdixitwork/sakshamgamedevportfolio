@@ -24,7 +24,7 @@
     }
 
     .main-nav {
-        margin-top: 4%;
+        margin-top: 2%;
     }
     
 
@@ -114,7 +114,7 @@
     }
 
     .main-nav {
-        padding-right: 20px;
+        padding-right: 10px;
     }
 
     .main-nav li {
@@ -251,11 +251,23 @@
     }
 
     .main-nav {
-        padding-right: 16px;
+        padding: 0;
+        margin: 10px 10px 0 0;
+        float: none;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        display: flex;
     }
 
-    .main-nav li {
-        margin-right: 0px;
+    .main-nav a {
+        margin: 0;
+        padding: 0;
+    }
+
+   .main-nav li {
+       text-align: center;
+       margin-left: 18px;
         font-size: 120%;
     }
 
@@ -283,6 +295,15 @@
         font-size: 140%;
     }
 
+    .footer-content img {
+        height: 100px;
+        width: auto;
+    }
+
+    .social img {
+        height: 20px;
+    }
+
 }
 
 @media only screen and (max-width: 400px) {
@@ -291,14 +312,21 @@
         padding: 0;
         margin: 10px 10px 0 0;
         float: none;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        display: flex;
+    }
+
+    .main-nav a {
+        margin: 0;
+        padding: 0;
     }
 
    .main-nav li {
-        font-size: 80%;
-    }
-
-    .box h3 {
-        padding-left: 600px;
+       text-align: center;
+       margin-left: 16px;
+        font-size: 100%;
     }
 
     .footer-content img {
@@ -308,6 +336,15 @@
 
     .social img {
         height: 20px;
+        width: auto;
+    }
+
+    .hero-text-box h3 {
+        font-size: 80%;
+    }
+
+    .icon-big {
+        height: 30px;
         width: auto;
     }
 
