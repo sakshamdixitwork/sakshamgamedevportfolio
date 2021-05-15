@@ -250,12 +250,6 @@
         padding: 20px 0;
     }
 
-    
-header {
-    height: 70vh;
-    
-}
-
     .main-nav {
         padding-right: 16px;
     }
@@ -291,12 +285,34 @@ header {
 
 }
 
-@media only screen and (max-width: 500px) {
-    .long-copy {
-        font-size: 96%;
+@media only screen and (max-width: 400px) {
+    
+    .main-nav {
+        padding: 0;
+        margin: 10px 10px 0 0;
+        float: none;
     }
 
-    .box p {
-        font-size: 14px;
+    .sticky {
+        padding-bottom: 10px;
     }
+
+   .main-nav li {
+        font-size: 80%;
+    }
+
+    .box h3 {
+        padding-left: 600px;
+    }
+
+    .footer-content img {
+        height: 100px;
+        width: auto;
+    }
+
+    .social img {
+        height: 20px;
+        width: auto;
+    }
+
 }
