@@ -247,7 +247,7 @@ h2:after {
 .main-nav li {
     font-size: 120%;
     display: inline-block;
-    margin-left: 0px;
+    margin-left: 30px;
 }
 
 .main-nav li a:link,
