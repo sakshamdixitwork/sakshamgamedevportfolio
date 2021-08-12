@@ -429,5 +429,22 @@
         width: auto;
     }
 
+    .vid iframe {
+        width: 80%;
+        height: 20vh;
+        padding: 0 0 0 0;
+    }
+
+    .section-Projects h3 {
+        padding-right: 30px;
+        margin-top: 2px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    
+    .section-Projects p {
+        margin-bottom: 20px;
+        
+    }
 
 }
