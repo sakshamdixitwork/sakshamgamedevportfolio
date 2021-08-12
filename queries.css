@@ -430,13 +430,13 @@
     }
 
     .vid iframe {
-        width: 80%;
-        height: 40vh;
+        width: 100%;
+        height: 30vh;
         padding: 0 0 0 0;
     }
 
     .section-Projects h3 {
-        padding-right: 40px;
+        padding-right: 30px;
         margin-top: 2px;
         margin-bottom: 10px;
         font-size: 20px;
