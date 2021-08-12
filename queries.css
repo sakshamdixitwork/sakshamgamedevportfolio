@@ -431,12 +431,12 @@
 
     .vid iframe {
         width: 80%;
-        height: 30vh;
+        height: 40vh;
         padding: 0 0 0 0;
     }
 
     .section-Projects h3 {
-        padding-right: 30px;
+        padding-right: 40px;
         margin-top: 2px;
         margin-bottom: 10px;
         font-size: 20px;
